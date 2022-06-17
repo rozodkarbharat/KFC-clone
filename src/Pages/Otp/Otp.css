@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato:wght@300&family=Montserrat:ital,wght@1,100&family=Oswald:wght@500&family=Roboto:wght@600&family=Shizuru&display=swap');
+
+.otp_main {
+
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.otp_main_first_p {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #494949;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.otp_main img{
+    height: 76px;
+    width: 76px;
+}
+
+.otp_main_second_p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #202124;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.otp_form {
+    height: auto;
+    margin-top: 30px;
+}
+
+.otp_terms {
+    margin-top: 50px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #202124;
+}
+
+u {
+    text-decoration: underline;
+}
+
+ .otp_btn{
+    height: 44px;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #202124;
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.otp_or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp_or div:nth-child(1) {
+    height: 0.1px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.otp_or div:nth-child(3) {
+    height: 0.1px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.otp_or div:nth-child(2) {
+    padding: 30px 10px;
+}
+
+.otp_skip button {
+    width: 100%;
+    background: #ffffff;
+    color: #202124;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    border-radius: 66px;
+    border: 1px solid #202124;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+.otp_input{
+    display:flex;
+    gap:5px;
+    margin-top: 20px;
+}
+.otp_change{
+    margin-top: 30px;
+}
+.otp_error{
+    height: 50px;
+    margin-top: 30px;
+    color:red;
+    font-size: 16px;
+    font-weight: bolder;
+}

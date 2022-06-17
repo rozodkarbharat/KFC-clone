@@ -1,0 +1,304 @@
+.first1{
+    display: flex;
+    gap:30px;
+    text-align: center;
+    background-color: #202124;
+    color: white;
+    align-items: center;
+    height:80px;
+}
+.first2{
+    margin-left:500px;
+    font-size:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.first3{
+    background-color: #e4002b;
+    color: white;
+    width:200px;
+    border-radius:30px;
+    height:60px;
+    font-size:20px;
+}
+.sec1{
+    width: 100%;
+    height: 280px;
+    background-color: #202124;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-image: url("https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg");
+}
+.sec2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "National 2 Condensed";
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto;
+}
+.third1{
+    margin-right:900px;
+    height:20px;
+}
+.third2{
+    vertical-align: super!important;
+}
+.four1{
+    display: flex;
+    justify-content:space-evenly;
+    color: #202124;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+.four2{
+    margin: auto 0;
+    font-family: "National 2 Condensed";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.four3{
+    margin: auto 0;
+    font-family: "National 2 Regular";
+    font-weight: 500;
+    font-size:20px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.five1{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.five2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.five3{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+    overflow: hidden;
+    position: relative;
+    margin-left:300px;
+    height:500px;
+    border-radius:8px;
+}
+.five4{
+    object-fit: cover;
+    border-radius: 8px;
+    width: 100%;
+    -webkit-transform: scale(1.08) translateY(5px);
+    transform: scale(1.08) translateY(5px);
+}
+.five5{
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    width: 90%;
+}
+.five6{
+    position: absolute;
+    top: 75%;
+    color: #fff;
+    margin: auto;
+}
+.five7{
+    padding: 11px 45px;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    outline: none;
+    margin-top:30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.six1{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+    background-color: #e4002b;
+    width:400px;
+    border-radius:8px;
+    margin-left:20px;
+}
+.six2{
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 87%;
+    margin: 24% auto 6%;
+}
+.six3{
+    margin: 5% auto auto;
+    color: #fff;
+}
+.six4{
+    padding: 11px 35px;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    outline: none;
+    margin: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+.seve1{
+    position: relative;
+    width: 23.5%;
+    height: 550px;
+    font-family: "National 2 Regular";
+    background: #fff;
+    box-shadow: 0 4px 7px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-left:20px;
+}
+.seve2{
+    width: 100%;
+    height: 234px;
+    margin-bottom: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.seve3{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.seve4{
+    margin-bottom: 5px;
+    font-style: normal;
+    color: #e4002b;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    font-family: "National 2 Condensed";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.seve5{
+    font-style: normal;
+    font-weight: 400;
+    font-family: "National 2 Regular";
+    height: 48px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    color: #202124;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.seve6{
+    display: flex;
+    justify-content: inherit;
+    position: absolute;
+    /* bottom: -5%; */
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.seve7{
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "National2-Medium";
+    text-decoration: underline;
+    padding: initial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494949;
+    margin: auto 0 auto auto;
+    border-radius: 3px;
+}
+.seve8{
+    padding: 11px;
+    width: 42.5%;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    outline: none;
+    margin: auto 7% 5px auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "National2-Medium";
+    display: flex;
+    background-color: transparent;
+    border: 1.5px solid #202124;
+    color: #202124;
+}
+.seve9{
+    margin: auto;
+}
+.Nextdi{
+    /* display: flex; */
+    margin-top:30px;
+  margin-left:300px;
+}
+.Nextdii{
+    margin-top:30px; 
+}

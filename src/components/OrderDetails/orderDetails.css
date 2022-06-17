@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat:ital,wght@1,100&family=Roboto:wght@300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato:wght@300&family=Montserrat:ital,wght@1,100&family=Oswald:wght@500&family=Roboto:wght@600&family=Shizuru&display=swap');
+
+.Order_detail_tittle{
+    font-family: 'Fira Sans Condensed', sans-serif;
+        display: "flex";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    /* padding-top: 2%; */
+    align-self: "center";
+    width:410px;
+}

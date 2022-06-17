@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato:wght@200&family=Montserrat:ital,wght@1,100&family=Oswald:wght@400&family=Roboto:wght@300&family=Shizuru&display=swap');
+
+.menu_left{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.menu_main{
+    display: flex;
+    width: 100%;
+}
+.menu_right{
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding-left:30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+.menu_right img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 280px;
+}
+.menu_right p{
+    font-size: 14px;
+    margin-top: -10px;
+    color:#494949;
+    margin-bottom: -8px;
+}
+
+.menu_right h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.menu_right{
+    margin-left:0;
+    padding-left: 0;
+}
+.menu_footer{
+z-index:1400;
+position: absolute;
+    /* box-sizing: border-box; */
+width: 100%;
+
+}
