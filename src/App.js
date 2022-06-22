@@ -10,6 +10,7 @@ import Otp from './Pages/Otp';
 import Deals from './Pages/Deals';
 import { Routes,Route } from 'react-router-dom';
 import CartDetail from './Pages/CartDetail';
+import { Requiredauth } from './HOC/RequiredAuth';
 
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/deals" element={<Deals/>}/>
        <Route path="/otp" element={<Otp/>}/>
-       <Route path= "/cartdetail" element={<CartDetail/>}/>
+       <Route path= "/cartdetail" element={
+        <Requiredauth>
+       <CartDetail/>
+       </Requiredauth>}/>
       </Routes>
 
 

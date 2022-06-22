@@ -12,6 +12,7 @@ import "./navbar.css"
 import Profile from '@mui/icons-material/AccountCircleRounded';
 import {Link} from "react-router-dom"
 import { Productscontext } from '../../context/Productscontext';
+import { Authcontext } from '../../context/Authcontext';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: 'flex-start',
@@ -28,6 +29,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 
 export default function Navbar() {
 const {price,count}=React.useContext(Productscontext)
+const {token}=React.useContext(Authcontext)
 
   return (
     <Box sx={{ flexGrow: 1}} styles={{ color:'grey',}}>
@@ -71,13 +73,14 @@ const {price,count}=React.useContext(Productscontext)
           </IconButton>
           
            <Typography
-          style={{fontSize:16,fontWeight:1000,alignSelf:'center',width:"60px"}}
+          style={{fontSize:16,fontWeight:1000,alignSelf:'center',width:"70px"}}
             noWrap
             component="div"
             sx={{ marginRight:2}}
           >
              <Link to ="/login">
-            sign In
+              {token?"Account":"sign In"}
+            
              </Link>
           </Typography>
           
