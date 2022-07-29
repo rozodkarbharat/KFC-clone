@@ -1,6 +1,6 @@
 
 
-<h1>Porter Clone</h1>
+<h1>KFC Clone</h1>
 <a href="https://62e3fd1323b3d709679a3d6c--kfc-rozodkarbharat.netlify.app/"><p>View Demo<p/></a>
 <p>E-commerce app for food delivery.</p>
 
