@@ -96,12 +96,13 @@ display: inline-flex;
 display: flex;
  flex-direction:column;
 background-color: rgb(248,247,245);
-
+padding-top: 20px;
             
 }
 .cartdata_parent{
     display: flex;
     justify-content: space-between;
+    
 }
 .cartdetail_discount{
     background-image: url(../../../public/discount.png);
@@ -168,3 +169,8 @@ width: 159px;
             line-height: 22px;
             color: #494949;
 }
+/* .cartdata_title{
+    align-self:flex-start;
+     justify-self:flex-start;
+      margin-left:20px
+} */

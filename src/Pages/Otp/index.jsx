@@ -1,4 +1,4 @@
-import { Input } from '@mui/material'
+import { Input, TextField } from '@mui/material'
 import React, { useContext, useEffect, useState } from 'react'
 import { Authcontext } from '../../context/Authcontext'
 import "./Otp.css"
@@ -7,25 +7,32 @@ import {useNavigate,Link} from "react-router-dom"
 
 const Otp = ({}) => {
    const [otp,setotp]=useState("")
-   const {confirmobj}=useContext(Authcontext)
+   const {confirmobj,settoken,number}=useContext(Authcontext)
       const [error,seterror]=useState("")
       
      const navigate=useNavigate()
-useEffect(() => {
- if(otp.length===6){
-  verifyotp(otp)
- }
-}, [otp])
+// useEffect(() => {
+//  if(otp.length===6){
+//   verifyotp(otp)
+//  }
+// }, [otp])
 
-const verifyotp=async(otp)=>{
+const verifyotp=async(e)=>{
+e.preventDefault()
+  console.log(otp)
 if(otp===""||otp===undefined)return
 try{
-seterror("")
+  if(otp.length===6)
+{
+  seterror("")
 await confirmobj.confirm(otp)
+settoken(otp)
 navigate("/")
+}
 }
 catch(err){
 seterror(err.message)
+
 }
 
 
@@ -41,22 +48,20 @@ seterror(err.message)
       <p className='otp_main_second_p'>WE JUST TEXTED YOU</p>
         </div>
   <div className='otp_terms'>
-          Please enter the verification code we just sent to <u> <b> 919096005866 </b> </u>  .
+          Please enter the verification code we just sent to <u> <b> {number}</b> </u>  .
         </div>
         <div className='otp_change'>
+          <Link to="/login">
          <u> <b>Different Number?  </b> </u>
+         </Link>
         </div>
      
 
      <div >
       <form  onSubmit={verifyotp}>
         <div className='otp_input'>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
-      <Input onChange={(e)=>setotp(otp+e.target.value)}/>
+
+    <TextField sx={{width:"60%",margin:"auto",background:"white"}} value={otp} onChange={(e)=>setotp(e.target.value)} id="filled-basic" label="OTP" variant="filled" />
         </div>
        {error? <div className='otp_error'>Wrong otp</div>:""}
       <div>

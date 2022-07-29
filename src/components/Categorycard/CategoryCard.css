@@ -68,3 +68,15 @@ width: 30px;
    
 
 }
+.categorycard_title{
+    align-self: flex-start;
+    justify-self:flex-start;
+     margin-left:20px;
+}
+.categorycard_main{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(248,247,245);
+    padding-top:40px;
+    padding-right:42px;
+}

@@ -23,7 +23,7 @@ const Menu = () => {
     <MenuSidebar/>
       </div>
   <div className="menu_right">
-      <hr style={{height:"0.5px",marginTop:"100px",background:"black"}}/>
+      <hr className='menu_line' />
        <CategoryCard id="chicken_buckets" value="chicken_buckets" tittle="CHICKEN BUCKETS"/>
        {/* <CategoryCard id="new_launches" value="new_launches" tittle="NEW LAUNCH"/>
         <CategoryCard id="chicken_rolls" value="chicken_rolls" tittle="CHICKEN ROLLS"/>

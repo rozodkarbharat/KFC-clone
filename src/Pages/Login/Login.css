@@ -99,3 +99,20 @@ padding:30px 10px ;
     height: 76px;
     width: 76px;
 }
+.login_input input{
+    border: none;
+        text-align: left;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #202124;
+        outline: none;
+        font-family: 'National 2 Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        color: #202124;
+        padding-bottom: 0.7%;
+        position: relative;
+}

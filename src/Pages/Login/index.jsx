@@ -11,7 +11,7 @@ import { Navigate,useNavigate,Link } from 'react-router-dom'
 
 const Login = () => {
     const [number,setnumber]=useState("")
-        const [erroe,seterror]=useState("")
+        const [error,seterror]=useState("")
 
        const {Setuprecatcha,setconfirmobj}=useContext(Authcontext);
  
@@ -31,13 +31,15 @@ try {
 
   const res=await Setuprecatcha(number)
     
-    console.log(res)
+    console.log(res,"***")
     setconfirmobj(res)
  navigate("/otp")
 }catch(err){
 seterror(err.message)
+console.log(error)
 }
 console.log(number)
+
 }
 
 
@@ -58,7 +60,7 @@ console.log(number)
         defaultCountry='IN'
         value={number}
         onChange={setnumber}
-        placeholder="Enter Phone Number"/>
+        placeholder="Enter Phone Number" className='login_input'/>
         <div className='login_terms'>
             By “logging in to KFC”, you agree to our <u> <b> Privacy Policy </b> </u>  and<u> <b> Terms & Conditions </b> </u>.
         </div>

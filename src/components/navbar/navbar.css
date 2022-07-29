@@ -15,3 +15,17 @@ margin-right:50px;
     margin-top: 15px;
 
 }
+.navbar_signin_icon{
+display: flex;
+ align-self:center;
+}
+.navbar_cartdetail{
+height: 40px;
+ width:0.5px; 
+ background-color:lightgray;
+  align-self:center;
+}
+.navbar_amount{
+align-self:center;
+ margin-left:15px;
+}

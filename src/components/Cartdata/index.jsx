@@ -30,8 +30,6 @@ Decrementcart(e.target.name)
  
         
     <div className='cartdata_main' >
-  
-    <h2 style={{alignSelf:"flex-start",justifySelf:"flex-start",marginLeft:"20px"}}>{tittle}</h2>
           <Box
       sx={{
         gridTemplateColumns:"repeat(2,1fr)",

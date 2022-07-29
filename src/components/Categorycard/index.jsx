@@ -27,9 +27,8 @@ const Decrementcount=()=>{
 setcount(count-1)
 }
   return (
-    <div style={{ display:"flex" ,
-   flexDirection:"column", backgroundColor: 'rgb(248,247,245)',paddingTop:"40px",paddingRight:'42px'}}>
-    <h2 style={{alignSelf:"flex-start",justifySelf:"flex-start",marginLeft:"20px"}}>{tittle}</h2>
+    <div className='categorycard_main'>
+    <h2 className='categorycard_title' >{tittle}</h2>
           <Box
       sx={{
         display: "grid",
