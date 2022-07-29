@@ -25,14 +25,14 @@ const Menu = () => {
   <div className="menu_right">
       <hr className='menu_line' />
        <CategoryCard id="chicken_buckets" value="chicken_buckets" tittle="CHICKEN BUCKETS"/>
-       {/* <CategoryCard id="new_launches" value="new_launches" tittle="NEW LAUNCH"/>
+       <CategoryCard id="new_launches" value="new_launches" tittle="NEW LAUNCH"/>
         <CategoryCard id="chicken_rolls" value="chicken_rolls" tittle="CHICKEN ROLLS"/>
         <CategoryCard id="biryani_buckets" value="biryani_buckets" tittle="BIRYANI BUCKETS"/>
          <CategoryCard id="box_meals" value="box_meals" tittle="BOX MEALS"/>
          <CategoryCard id ="burgers" value="burgers" tittle="BURGERS"/>
          <CategoryCard id="stay_home_special" value="stay_home_special" tittle="STAY HOME SPECIAL"/>
         <CategoryCard id="snack" value="snack" tittle="SNACKS"/>
-        <CategoryCard id="beverage" value="beverage" tittle="BEVERAGES"/> */}
+        <CategoryCard id="beverage" value="beverage" tittle="BEVERAGES"/>
   </div>
 
     </div>

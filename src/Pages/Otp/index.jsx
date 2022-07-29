@@ -3,11 +3,13 @@ import React, { useContext, useEffect, useState } from 'react'
 import { Authcontext } from '../../context/Authcontext'
 import "./Otp.css"
 import {useNavigate,Link} from "react-router-dom"
+import {useLocation} from "react-router-dom"
 
 
 const Otp = ({}) => {
    const [otp,setotp]=useState("")
    const {confirmobj,settoken,number}=useContext(Authcontext)
+<<<<<<< HEAD
       const [error,seterror]=useState("")
       
      const navigate=useNavigate()
@@ -17,6 +19,12 @@ const Otp = ({}) => {
 //  }
 // }, [otp])
 
+=======
+      const [error,seterror]=useState("")    
+     const navigate=useNavigate()
+      const {location}=useLocation()
+console.log(location)
+>>>>>>> c76a59211930c2d76d6ab1611e28680aa152e02a
 const verifyotp=async(e)=>{
 e.preventDefault()
   console.log(otp)
@@ -27,7 +35,17 @@ try{
   seterror("")
 await confirmobj.confirm(otp)
 settoken(otp)
+<<<<<<< HEAD
+=======
+// if(state.from){
+//   navigate(state.from,{replace:true})
+// }
+// else{
+>>>>>>> c76a59211930c2d76d6ab1611e28680aa152e02a
 navigate("/")
+// }
+
+}
 }
 }
 catch(err){
