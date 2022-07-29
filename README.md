@@ -27,17 +27,18 @@ https://62e3fd1323b3d709679a3d6c--kfc-rozodkarbharat.netlify.app/
 
 <h3>Snippets</h3>
 <div>
-<img src=""/>
+  <p>Home Page</p>
+<img src="https://miro.medium.com/max/875/1*8oXKOMNsHCkiZ0FFSqNDzw.png"/>
 <div/>
   <div>
-<img src=""/>
+    <p>Products Page</p>
+<img src="https://miro.medium.com/max/875/1*N4sCAyw4Q7W-sxGSfHUzUw.png"/>
 <div/>
     <div>
-<img src={"./pages/images/cart"}>
+       <p>Cart Page</p>
+<img src="https://miro.medium.com/max/875/1*6tJDZqLSqCADrXKtgJHwDw.png">
 <div/>
       <div>
-<img src=""/>
-<div/>
-        <div>
-<img src=""/>
+         <p>Login Page</p>
+<img src="https://miro.medium.com/max/875/1*uRxOVuqSef0uVgtuHq-gkQ.png"/>
 <div/>
