@@ -13,10 +13,6 @@ import { Navigate,useNavigate,Link } from 'react-router-dom'
 const Login = () => {
     const [number,setnumber]=useState("")
         const [error,seterror]=useState("")
-<<<<<<< HEAD
-
-=======
->>>>>>> c76a59211930c2d76d6ab1611e28680aa152e02a
        const {Setuprecatcha,setconfirmobj}=useContext(Authcontext);
  
  
